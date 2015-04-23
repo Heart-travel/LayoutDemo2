@@ -3,7 +3,7 @@
 	android:layout_height="match_parent"
 	android:orientation="horizontal" >
 	
-	<Button
+<!-- 	<Button
 		android:id="@+id/button1"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
@@ -17,10 +17,27 @@
 		android:layout_gravity="center_vertical"
 		android:text="@string/button2" />
 	
-	<Button
+ 	<Button
 		android:id="@+id/button3"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_gravity="bottom"
-		android:text="@string/button3" />
+		android:text="@string/button3" /> -->
+		
+	<EditText
+		android:id="@+id/input_message"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_gravity="bottom"
+		android:hint="@string/hint"
+		/>
+	
+	<Button
+		android:id="@+id/send"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom"
+		android:text="@string/send"
+		/>
 </LinearLayout>
